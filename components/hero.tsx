@@ -44,7 +44,7 @@ export default function HeroSection() {
   return (
     <section className="min-h-screen bg-black text-white flex items-center overflow-hidden relative">
       {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-red-950/30 via-black to-black" />
+      <div className="absolute inset-0 bg-linear-to-br from-red-950/30 via-black to-black" />
       
       <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
         
@@ -61,10 +61,10 @@ export default function HeroSection() {
             >
               <div className="relative group">
                 {/* Card Background - Glassmorphism */}
-                <div className="bg-gradient-to-br from-red-500/10 to-rose-500/10 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-red-500/20">
+                <div className="bg-linear-to-br from-red-500/10 to-rose-500/10 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-red-500/20">
                   <div className="bg-gray-800/50 border-2 border-dashed border-red-500/30 rounded-2xl w-96 h-96 lg:w-[420px] lg:h-[420px] flex flex-col items-center justify-center relative overflow-hidden">
                     {/* Gradient Overlay */}
-                    <div className={`absolute inset-0 bg-gradient-to-br ${item.gradient} opacity-85`} />
+                    <div className={`absolute inset-0 bg-linear-to-br ${item.gradient} opacity-85`} />
                     
                     <div className="relative z-10 text-center text-white space-y-6">
                       <Heart className="w-16 h-16 mx-auto animate-pulse" fill="currentColor" />
@@ -91,7 +91,7 @@ export default function HeroSection() {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.5 }}
-                    className="absolute -bottom-6 -right-6 bg-gradient-to-r from-red-500 to-rose-500 text-white px-10 py-5 rounded-full shadow-2xl font-bold text-2xl flex items-center gap-3"
+                    className="absolute -bottom-6 -right-6 bg-linear-to-br from-red-500 to-rose-500 text-white px-10 py-5 rounded-full shadow-2xl font-bold text-2xl flex items-center gap-3"
                   >
                     <Sparkles className="w-7 h-7" />
                     ৳{item.price}

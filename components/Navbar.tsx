@@ -51,14 +51,14 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-6 space-x-6 absolute right-20 top-1/2 transform -translate-y-1/2">
           <Search className="w-6 h-6 cursor-pointer hover:text-primary transition" />
           <ShoppingCart className="w-6 h-6 cursor-pointer hover:text-primary transition" />
-          <User className="w-6 h-6 cursor-pointer hover:text-primary transition" />
+         <Link href={"/user"}> <User className="w-6 h-6 cursor-pointer hover:text-primary transition" /></Link>
         </div>
 
         {/* Mobile Icons */}
         <div className="md:hidden flex items-center gap-3 absolute right-14 z-20">
           <Search className="w-6 h-6 cursor-pointer" />
           <ShoppingCart className="w-6 h-6 cursor-pointer" />
-          <User className="w-6 h-6 cursor-pointer" />
+          <Link href={"/user"}><User className="w-6 h-6 cursor-pointer" /></Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -100,7 +100,7 @@ export default function Navbar() {
 
           <Link
             href="/contact"
-            className="cursor-pointer hover:text-primary transition ml-5"
+            className="cursor-pointer hover:text-primary transition "
           >
             Contact Us
           </Link>

@@ -186,7 +186,7 @@ function PackageCard({ pkg, index }: { pkg: any; index: number }) {
           ))}
         </ul>
 
-        <button className="w-full bg-linear-to-r from-blue-600 to-red-700 hover:from-purple-700 hover:to-red-800 text-white font-bold py-4 px-8 rounded-full text-lg transition-all hover:shadow-lg transform hover:-translate-y-1">
+        <button className="w-full cursor-pointer bg-linear-to-r from-blue-600 to-red-700 hover:from-purple-700 hover:to-red-800 text-white font-bold py-4 px-8 rounded-full text-lg transition-all hover:shadow-lg transform hover:-translate-y-1">
           Book Now
         </button>
       </div>
