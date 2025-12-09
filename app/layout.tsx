@@ -21,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${josefin.className} mx-auto` }
+        suppressHydrationWarning={true}
       >
         <Navbar/>
         {children}

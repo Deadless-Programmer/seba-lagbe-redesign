@@ -1,7 +1,8 @@
+import HeroSection from "@/components/HeroSection";
 
 
 export default function Home() {
   return (
-     <h1 className="text-amber-300">hello world</h1>
+    <HeroSection/>
   );
 }
