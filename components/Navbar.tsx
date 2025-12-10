@@ -38,12 +38,18 @@ export default function Navbar() {
           >
             Contact Us
           </Link>
+          <Link
+            href="/provider/dashboard"
+            className="cursor-pointer hover:text-primary transition"
+          >
+           Service Provider
+          </Link>
 
           <Link
             href="/about"
             className="cursor-pointer hover:text-primary transition"
           >
-            About Me
+            About Us
           </Link>
         </div>
 
@@ -106,10 +112,17 @@ export default function Navbar() {
           </Link>
 
           <Link
+            href="/provider/dashboard"
+            className="cursor-pointer hover:text-primary transition "
+          >
+            Service Provider
+          </Link>
+
+          <Link
             href="/about"
             className="cursor-pointer hover:text-primary transition block"
           >
-            About Me
+            About Us
           </Link>
         </div>
       </div>

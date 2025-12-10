@@ -70,7 +70,7 @@ export default function ServiceBookingPage({
   return (
     <>
       {/* Hero */}
-      <section className="bg-linear-to-br from-blue-600 to-blue-800 py-20">
+      <section className="bg-linear-to-br from-blue-600 to-red-500 py-20">
         <div className="container mx-auto px-6 lg:px-12 text-center text-white">
           <div className="flex justify-center mb-6">
             <div className="bg-white/20 backdrop-blur p-6 rounded-3xl">
@@ -189,7 +189,7 @@ export default function ServiceBookingPage({
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-linear-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold text-xl py-5 rounded-full transition-all hover:shadow-2xl transform hover:scale-105"
+                  className="w-full bg-linear-to-r from-red-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold text-xl py-5 rounded-full transition-all hover:shadow-2xl transform hover:scale-105"
                 >
                   Confirm Booking Request
                 </button>

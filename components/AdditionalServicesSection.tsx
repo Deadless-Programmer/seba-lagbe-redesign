@@ -79,7 +79,7 @@ export default function AdditionalServicesSection() {
                 <div className="bg-white rounded-3xl shadow-lg border border-gray-200 p-8 lg:p-10 text-center transition-all duration-300 hover:shadow-2xl hover:-translate-y-3 hover:border-blue-300">
                   {/* Icon */}
                   <div className="mb-6 inline-flex items-center justify-center">
-                    <div className="bg-linear-to-br from-blue-500 to-blue-600 p-6 rounded-3xl group-hover:scale-110 transition-transform duration-300">
+                    <div className="bg-linear-to-br from-purple-500 to-blue-600 p-6 rounded-3xl group-hover:scale-110 transition-transform duration-300">
                       <Icon className="w-12 h-12 lg:w-14 lg:h-14 text-white" />
                     </div>
                   </div>

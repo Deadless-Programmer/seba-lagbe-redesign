@@ -42,7 +42,7 @@ export default function SatisfiedClientsSection() {
         </div>
 
         {/* Future: Multiple Testimonials (Grid) */}
-        {/* Jodi aro video thake, ei grid uncomment koro */}
+      
         {/*
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16 max-w-7xl mx-auto">
           {[...Array(6)].map((_, i) => (

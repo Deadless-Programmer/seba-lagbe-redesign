@@ -58,7 +58,7 @@ export default function ServicesPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-linear-to-br from-blue-600 to-blue-800 py-20  lg:py-28">
+      <section className="bg-linear-to-br from-purple-500 to-red-600 py-20  lg:py-28">
         <div className="container mx-auto px-6 lg:px-12 text-center text-white">
           <h1 className="text-5xl lg:text-7xl font-black mb-6">
             Our Services
@@ -92,7 +92,7 @@ export default function ServicesPage() {
                   <div className="p-8 lg:p-10">
                     {/* Icon */}
                     <div className="mb-6">
-                      <div className="bg-linear-to-br from-blue-600 to-blue-700 w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center">
+                      <div className="bg-linear-to-br from-purple-500 to-red-600 w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center">
                         <Icon className="w-9 h-9 lg:w-11 lg:h-11 text-white" />
                       </div>
                     </div>
@@ -128,7 +128,7 @@ export default function ServicesPage() {
 
                     <Link href={`/services/${service.title.toLowerCase().replace(/ & /g, "-").replace(/ /g, "-")}`}>
                     
-                    <button className="w-full  cursor-pointer bg-linear-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold text-lg py-4 rounded-full transition-all hover:shadow-lg transform hover:scale-105">
+                    <button className="w-full  cursor-pointer bg-linear-to-br from-purple-500 to-red-600 hover:from-red-700 hover:to-blue-500 text-white font-bold text-lg py-4 rounded-full transition-all hover:shadow-lg transform hover:scale-105">
                       Book Now
                     </button>
                     </Link>
@@ -141,7 +141,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 bg-linear-to-r mb-20 from-blue-600 to-blue-800">
+      <section className="py-20 bg-linear-to-r mb-20 from-red-600 to-blue-800">
         <div className="container mx-auto px-6  lg:px-12 text-center">
           <h2 className="text-4xl lg:text-6xl font-black text-white mb-8">
             Need Custom Care Package?
