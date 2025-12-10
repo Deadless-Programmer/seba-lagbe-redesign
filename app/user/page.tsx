@@ -41,7 +41,7 @@ export default function UserDashboard() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-linear-to-br from-blue-600 to-blue-800 py-16 lg:py-20">
+      <section className="bg-linear-to-br from-red-600 to-purple-800 py-16 lg:py-20">
         <div className="container mx-auto px-6 lg:px-12 text-white">
           <h1 className="text-4xl lg:text-6xl font-black mb-4">My Dashboard</h1>
           <p className="text-xl opacity-90">Manage your bookings, profile & services in one place</p>
@@ -56,7 +56,7 @@ export default function UserDashboard() {
             <div className="lg:col-span-1">
               <div className="bg-white rounded-3xl shadow-xl border border-gray-200 p-8 sticky top-6">
                 <div className="flex items-center gap-5 mb-8">
-                  <div className="bg-linear-to-br from-blue-600 to-blue-700 w-20 h-20 rounded-full flex items-center justify-center text-white text-3xl font-bold">
+                  <div className="bg-linear-to-br from-red-600 to-purple-800 w-20 h-20 rounded-full flex items-center justify-center text-white text-3xl font-bold">
                     {user.name.charAt(0)}
                   </div>
                   <div>
@@ -80,7 +80,7 @@ export default function UserDashboard() {
                   </div>
                 </div>
 
-                <button className="w-full mt-8 bg-linear-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold py-4 rounded-full transition-all">
+                <button className="w-full mt-8 bg-linear-to-r from-red-600 to-purple-800 hover:from-blue-700 hover:to-blue-800 text-white font-bold py-4 rounded-full transition-all">
                   Edit Profile
                 </button>
               </div>
@@ -140,15 +140,15 @@ export default function UserDashboard() {
 
               {/* Quick Actions */}
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12">
-                <button className="bg-linear-to-r from-blue-600 to-blue-700 text-white font-bold py-6 rounded-3xl hover:shadow-xl transition-all flex flex-col items-center gap-3">
+                <button className="bg-linear-to-r from-red-600 to-purple-800 text-white font-bold py-6 rounded-3xl hover:shadow-xl transition-all flex flex-col items-center gap-3">
                   <Home className="w-10 h-10" />
                   <span>Book New Service</span>
                 </button>
-                <button className="bg-white border-2 border-blue-600 text-blue-600 font-bold py-6 rounded-3xl hover:bg-blue-50 transition-all flex flex-col items-center gap-3">
+                <button className="bg-white border-2 border-purple-800 text-blue-600 font-bold py-6 rounded-3xl hover:bg-blue-50 transition-all flex flex-col items-center gap-3">
                   <CreditCard className="w-10 h-10" />
                   <span>Payment History</span>
                 </button>
-                <button className="bg-white border-2 border-blue-600 text-blue-600 font-bold py-6 rounded-3xl hover:bg-blue-50 transition-all flex flex-col items-center gap-3">
+                <button className="bg-white border-2 border-purple-800 text-blue-600 font-bold py-6 rounded-3xl hover:bg-blue-50 transition-all flex flex-col items-center gap-3">
                   <Settings className="w-10 h-10" />
                   <span>Account Settings</span>
                 </button>
