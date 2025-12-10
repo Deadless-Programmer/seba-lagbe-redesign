@@ -1,6 +1,6 @@
 # Sheba Lagbe – Hospital at Home
 
-Live Demo: https://sheba-lagbe.vercel.app  
+Live Demo: https://seba-lagbe.vercel.app 
 
 
 ## Project Overview
@@ -75,7 +75,7 @@ Provider Login → Provider Dashboard → Accept Job → Start Visit
 
 ## Live Preview
 
-https://sheba-lagbe.vercel.app
+https://seba-lagbe.vercel.app
 
 Try these:
 - Click any "Book Now" → goes to dynamic service page
